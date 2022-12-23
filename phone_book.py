@@ -26,9 +26,4 @@ def remove_contact():
     if confirm.lower() == 'y':
         del_contact = phone_book.pop(id - 1)
 
-# def find_contact():
-#     global phone_book
-#     name = view.word_for_finding()
-#     for i in phone_book:
-#         if name == phone_book[]:
-#             del_contact = phone_book.pop(id - 1)
+
